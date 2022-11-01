@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+* {
+    background-color: #bfd7b5;
+    color: #333;
+    font-family: 'Short Stack', Arial, Helvetica, sans-serif;
+	justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 50px;
+}
+
+hr {
+    border: 2px dashed #333;
+    width: 50%;
+}
+
+button {
+    cursor: pointer;
+    font-size: 40px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.reset-button {
+    background-color: #ad2e24;
+    box-shadow: 2px 2px #540804;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.reset-button:hover {
+    opacity: 0.8;
+}
+
+.reset-button:active {
+    box-shadow: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+    width: 60%;
+    margin: 0px auto;
+}
+
+.half {
+    width: 30%;
+    padding: 20px;
+}
+
+@media (min-width: 543px) {
+	.half {
+	    width: 25%;
+	}
+};
